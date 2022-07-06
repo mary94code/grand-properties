@@ -1,0 +1,197 @@
+@import "./mixins";
+@import "./variables";
+
+header {
+    a {
+        text-decoration: none;
+        color: #3B3B3B;
+
+    }
+
+    a:visited {
+        color: #3B3B3B;
+
+    }
+
+    text-transform: uppercase;
+
+    .navPart1 {
+        margin-top: -20px;
+        margin-bottom: 40px;
+        margin-right: -50px;
+    }
+
+    #postAddBtn {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        color: $btnColorBlue;
+        border: 1px solid #4BADDB;
+        padding: 13px 40px;
+        border-radius: 40px;
+        margin-right: 15px;
+    }
+
+    #callMeBtnMain {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        padding: 18px 40px;
+        border-radius: 40px;
+        color: $white;
+        background-image: linear-gradient(to left, #3BA8DC, #96DBFC);
+    }
+
+    .navContact {
+        img {
+            width: 20px;
+            margin-left: 20px;
+        }
+
+        span {
+            font-size: 16px;
+            padding-top: -5px;
+        }
+
+        .phoneNum {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+        }
+
+    }
+
+    nav {
+        margin: 27px 29px;
+        background-color: $white;
+    }
+
+    .logoImage {
+        width: 100px;
+    }
+
+    .part-1 {
+        @include flexSpaceBetween();
+        align-items: center;
+        margin-bottom: 28px;
+        margin: 0 30px;
+    }
+
+    .part-2 {
+        margin-bottom: 28px;
+        background-color: #FEFEFE;
+        ;
+
+        ul {
+            @include displayFlex();
+            justify-content: center;
+            align-items: center;
+            margin: 21px auto;
+
+            li {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 22px;
+                padding: 0 30px;
+            }
+        }
+    }
+
+
+
+    li {
+        list-style: none;
+    }
+}
+
+.headerHeroInfo {
+    div {
+
+        @include flexSpaceBetween();
+        background-color: $veryLightGray;
+        padding: 15px 0;
+
+        .inputSearch {
+            border-radius: 20px;
+            outline: none;
+            border: none;
+            padding: 5px;
+            font-size: 11px; 
+
+        }
+        .searchIcon {
+            position: relative;
+            right: 20px;
+            bottom: -2px;
+            
+        }
+        ul {
+            @include displayFlex();
+        }
+
+        li {
+            margin: 0 12px;
+
+        }
+
+        img {
+            width: 11px;
+        }
+
+        a {
+            text-transform: capitalize;
+            font-size: 12px;
+        }
+    }
+}
+
+.headerBgMain {
+    .main-bg-image {
+        width: 100%;
+        position: absolute;
+    }
+
+    .textOnPhoto {
+        position: relative;
+        z-index: 2;
+        top: 50px;
+        padding-top: 70px;
+        margin-left: 20px;
+    }
+
+    h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        color: $white;
+    }
+
+    .subtitle {
+        color: $white;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+
+    .callMeBtn {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        color: $white;
+        padding: 20px 40px;
+        border: 1px solid white;
+        border-radius: 40px;
+        background-color: rgba($color: #ffff, $alpha: 0.2);
+
+    }
+}

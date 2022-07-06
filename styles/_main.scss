@@ -1,0 +1,390 @@
+@import "./variables";
+@import "./mixins";
+
+#search {
+    background-color: $white;
+    margin-top: 170px;
+
+
+    .searchCategories {
+        @include displayFlex();
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 15px;
+            height: 12px;
+        }
+    }
+
+    .propertySale {
+        background-color: $veryLightGray;
+        width: 240px;
+        padding: 15px 40px;
+        font-size: 13px;
+        border-radius: 20px 20px 0 0;
+        margin-right: 10px;
+    }
+
+    .longTermRent,
+    .shortTermRent {
+        background-color: #EFEFEF;
+        width: 240px;
+        padding: 15px 40px;
+        font-size: 13px;
+        border-radius: 20px 20px 0 0;
+        margin-right: 10px;
+    }
+
+    .searchInputs {
+        @include displayFlex();
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $veryLightGray;
+        padding-top: 50px;
+
+        .searchInputs1 {
+            @include displayFlex();
+
+            select {
+                width: 250px;
+                margin-right: 15px;
+                border: none;
+                padding: 5px;
+            }
+        }
+
+        .pricesMaxMin {
+            @include displayFlex();
+            width: 250px;
+
+            #minPrice,
+            #maxPrice {
+                width: 100px;
+            }
+
+
+        }
+
+    }
+
+    .buttonsSearch {
+        margin-top: 40px;
+        padding-bottom: 50px;
+
+        .findProperties {
+            background-color: $softBlue;
+            width: 240px;
+            padding: 15px 50px;
+            font-size: 13px;
+            border-radius: 40px;
+            margin-right: 10px;
+            text-decoration: none;
+            color: $white;
+        }
+
+        .advancedSearch {
+            background-color: $white;
+            width: 240px;
+            padding: 15px 50px;
+            font-size: 13px;
+            border-radius: 40px;
+            margin-right: 10px;
+            text-decoration: none;
+            border: 1px solid #005889;
+            color: $veryDarkGray;
+        }
+    }
+
+}
+
+main {
+    background-color: #FCFCFC;
+}
+
+#properties {
+    margin-top: 50px;
+    padding-top: 40px;
+    margin: 0 60px;
+
+    .villasExamples {
+        @include displayFlex();
+    }
+
+    .property-description {
+        @include displayFlex();
+        align-items: center;
+        justify-content: space-between;
+
+
+        div {
+            @include displayFlex();
+
+            p {
+                margin-right: 100px;
+            }
+        }
+
+        h1 {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 25px;
+        }
+    }
+
+    .propertyCard {
+        width: 250px;
+        margin-bottom: 50px;
+        margin-right: 10px;
+        border: 1px solid $veryLightGray;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-top: 5px;
+
+        img {
+            width: 11px;
+            height: 11px;
+        }
+
+        #propertyImage {
+            width: 230px;
+            height: 180px;
+        }
+
+        h2 {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+        }
+
+        .price {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+        }
+
+        .flatDescription {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+        }
+
+        span {
+            margin-left: 5px;
+        }
+
+        .amenetiesDiv {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border: 1px solid $veryLightGray;
+
+            span {
+                margin-right: 15px;
+            }
+        }
+    }
+
+    .updatesDiv {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .propertiesBtnBlue {
+        color: $white;
+        background-color: $softBlue;
+        padding: 8px 15px;
+        font-size: 18px;
+        border-radius: 5px;
+        margin-right: 5px;
+    }
+
+    .propertiesBtn {
+        padding: 10px;
+        padding: 8px 15px;
+        font-size: 18px;
+        border-radius: 5px;
+        background-color: $white;
+        margin-right: 5px;
+        color: #898989;
+
+    }
+
+    .triangleDown {
+        width: 23px;
+        padding-top: -20px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+#about {
+    background-image: url("/images/aboutBG.jpg");
+    background-repeat: no-repeat;
+    padding: 50px 60px;
+    margin-bottom: 50px;
+    @include displayFlex();
+    text-align: center;
+
+    p {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 30px;
+        color: $white;
+    }
+
+    img {
+        width: 100px;
+    }
+
+
+}
+
+#secretsOfOurWork {
+    text-align: center;
+
+    h3 {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 44px;
+        color: $veryDarkGrayishBlue;
+    }
+
+    .secretsSubtitle {
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 38px;
+        color: #005889;
+        margin-bottom: 40px;
+    }
+
+    .secretsDescription {
+        text-align: left;
+        margin: 5px 70px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-size: 18px;
+        line-height: 28px;
+        color: $veryDarkGray;
+    }
+
+    .grandSpan {
+        font-weight: bold;
+    }
+
+    .secretsImages {
+        @include displayFlex();
+        justify-content: space-around;
+        margin-top: 50px;
+
+        img {
+
+            width: 500px;
+        }
+    }
+
+    .numericalDetails {
+        @include displayFlex();
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 70px;
+        margin-bottom: 100px;
+
+        .num {
+            color: #005889;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 87px;
+            letter-spacing: 0.115em;
+            width: 150px;
+        }
+
+        p {
+            font-family: 'Open Sans';
+            font-size: 15px;
+            line-height: 30px;
+        }
+    }
+}
+
+#subscribe {
+    background-color: #555E63;
+    @include displayFlex();
+
+    color: $white;
+
+    h3 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    div {
+        padding: 60px;
+        width: 50%;
+
+        p {
+            letter-spacing: 1px;
+        }
+    }
+
+    .emails {
+        input {
+            width: 300px;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        button {
+            background: #4C5159;
+            border: 1px solid #FFFFFF;
+            border-radius: 56px;
+            padding: 12px 25px;
+            color: $white;
+        }
+    }
+}
+
+#buildingCompany {
+    .buildingPart1 {
+        background-color: $white;
+        @include displayFlex();
+        padding: 60px 100px;
+        h3{
+            font-size: 32px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+
+    .buildingPart2 {
+        background-color: #FCFCFC;
+        @include displayFlex();
+        padding: 60px 100px;
+        img{
+            width: 100%;
+        }
+        h3{
+            font-size: 32px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+}

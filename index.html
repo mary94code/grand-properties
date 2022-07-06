@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>GRAND PROPERTY GROUP</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="part-1">
+                <a href="./index.html"> <img class="logoImage" src="./images/лого.svg" alt="logo"></a>
+                <div class="navContact">
+                    <div class="navPart1">
+                        <img src="./images/phone-call.svg" alt="phoneIcon"><span class="phoneNum">+357 25 028 476</span>
+                        <img src="./images/person-outline 1.svg" alt="personOutline"> <span><a href="#"> Войти
+                            </a></span>
+                        <img src="./images/russianFlag.svg" alt="russianFlag"><span><a href="#"> RU </a></span>
+                        <img src="./images/britishFlag.svg" alt="britishFlag"><span><a href="#"> EN </a></span>
+                    </div>
+                    <div>
+                        <a id="postAddBtn" href="#">Разместить обЪект</a>
+                        <a id="callMeBtnMain" href="#">перезвоните мне</a>
+                    </div>
+                </div>
+            </div>
+            <div class="part-2">
+                <ul>
+                    <li><a href="#">Наши проекты</a></li>
+                    <li><a href="#">Продажа</a></li>
+                    <li><a href="#">Аренда</a></li>
+                    <li><a href="#">Иммиграция</a></li>
+                    <li><a href="#">Информация</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="headerHero">
+            <div class="headerHeroInfo">
+                <div>
+                    <ul>
+                        <li><a href="#"> Продажа недвижимости (10805)</a> <span><a href="#"><img class="arrow"
+                                        src="./images/arrowDown.svg" alt="arrow-down-image"></a></span></li>
+                        <li><a href="#"> Долгосрочная аренда (706)</a> <span><a href="#"><img class="arrow"
+                                        src="./images/arrowDown.svg" alt="arrow-down-image"></a></span></li>
+                        <li><a href="#"> Краткосрочная аренда (1110) </a><span><a href="#"><img class="arrow"
+                                        src="./images/arrowDown.svg" alt="arrow-down-image"></a></span></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#"><img src="./images/scaleIcon.svg" alt="scaleIcon">Список сравнений</a></li>
+                        <li><a href="#"><img src="./images/starIcon.svg" alt="starIcon"> Избранное</a></li>
+                        <li><a href="#"><input class="inputSearch" type="text" placeholder="Поиск по ID"><img
+                                    class="searchIcon" src="./images/lookingGlassIcon.svg" alt="lookingGlassIcon"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="headerBgMain">
+                <img class="main-bg-image" src="./images/mainBG.jpg" alt="main-background-photo">
+                <div class="textOnPhoto">
+                    <h1>Недвижимость на кипре</h1>
+                    <p class="subtitle">выберите дом вашей мечты уже сегодня!</p>
+                    <a class="callMeBtn" href="#">перезвоните мне</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="search">
+            <div class="searchCategories">
+                <div class="propertySale">
+                    <img src="./images/moneyIcon.svg" alt="moneyIcon"><span>Продажа недвижимости</span>
+                </div>
+                <div class="longTermRent">
+                    <img src="./images/callendarIcon.svg" alt="callendarIcon"> <span>Долгосрочная аренда</span>
+                </div>
+                <div class="shortTermRent">
+                    <img src="./images/stopwatch.svg" alt="stopwatchIcon"> <span>Краткосрочная аренда</span>
+                </div>
+            </div>
+            <div class="searchInputs">
+                <div class="searchInputs1">
+                    <div>
+                        <label for="city">Город</label><br>
+                        <select name="city" id="">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="region">Район</label><br>
+                        <select name="region" id="">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="typeOfProperty">Тип недвижимости</label><br>
+                        <select name="city" id="">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="searchInputs1">
+                    <div>
+                        <label for="amountOfBedrooms">Количество спален</label><br>
+                        <select name="bedrooms" id="">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="amountOfBathtubs">Количество сан.узлов</label><br>
+                        <select name="bathtubs" id="">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div class="pricesMaxMin">
+                        <div>
+                            <label for="minPrice">Мин. цена</label><br>
+                            <select name="maxPrice" id="minPrice">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="maxPrice">Макс. цена</label><br>
+                            <select name="maxPrice" id="maxPrice">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttonsSearch">
+                    <a class="findProperties" href="#">Найти недвижимость</a>
+                    <a class="advancedSearch" href="#">Расширенный поиск</a>
+                </div>
+        </section>
+        <section id="properties">
+
+            <div class="property-description">
+                <h1>Виллы в Пафосе на продажу</h2>
+                    <div>
+                        <p>196 объектов</p>
+                        <a href="#">Показать все &#8250</a>
+                    </div>
+            </div>
+            <div class="villasExamples">
+                <div class="propertyCard">
+                    <img id="propertyImage" src="./images/propertyImage.jpg" alt="property-image"><br>
+                    <h2>Elit spa villa</h2> <span class="price"> &#8364 2 222</span><br>
+                    <img src="./images/houseIcon.svg" alt="houseIcon"><span class="flatDescription">Villa</span><span
+                        class="price">&#8364 2 222</span><br>
+                    <img src="./images/locationIcon.svg" alt="locationIcon"><span class="flatDescription">Лимассол,
+                        Агиос Амвросиос</span><br>
+                    <div class="amenetiesDiv">
+                        <img src="./images/bedIcon.svg" alt="bedIcon"><span>2</span>
+                        <img src="./images/bathtubIcon.svg" alt="bathtubIcon"><span>2</span>
+                        <img src="./images/triangleIcon.svg" alt="triangleIcon"><span>800m</span>
+                        <img src="./images/squareIcon.svg" alt="squareIcon"><span>85&#13217</span>
+                    </div>
+                </div>
+                <div class="propertyCard">
+                    <img id="propertyImage" src="./images/propertyImage.jpg" alt="property-image"><br>
+                    <h2>Elit spa villa</h2> <span class="price"> &#8364 2 222</span><br>
+                    <img src="./images/houseIcon.svg" alt="houseIcon"><span class="flatDescription">Villa</span><span
+                        class="price">&#8364 2 222</span><br>
+                    <img src="./images/locationIcon.svg" alt="locationIcon"><span class="flatDescription">Лимассол,
+                        Агиос Амвросиос</span><br>
+                    <div class="amenetiesDiv">
+                        <img src="./images/bedIcon.svg" alt="bedIcon"><span>2</span>
+                        <img src="./images/bathtubIcon.svg" alt="bathtubIcon"><span>2</span>
+                        <img src="./images/triangleIcon.svg" alt="triangleIcon"><span>800m</span>
+                        <img src="./images/squareIcon.svg" alt="squareIcon"><span>85&#13217</span>
+                    </div>
+                </div>
+                <div class="propertyCard">
+                    <img id="propertyImage" src="./images/propertyImage.jpg" alt="property-image"><br>
+                    <h2>Elit spa villa</h2> <span class="price"> &#8364 2 222</span><br>
+                    <img src="./images/houseIcon.svg" alt="houseIcon"><span class="flatDescription">Villa</span><span
+                        class="price">&#8364 2 222</span><br>
+                    <img src="./images/locationIcon.svg" alt="locationIcon"><span class="flatDescription">Лимассол,
+                        Агиос Амвросиос</span><br>
+                    <div class="amenetiesDiv">
+                        <img src="./images/bedIcon.svg" alt="bedIcon"><span>2</span>
+                        <img src="./images/bathtubIcon.svg" alt="bathtubIcon"><span>2</span>
+                        <img src="./images/triangleIcon.svg" alt="triangleIcon"><span>800m</span>
+                        <img src="./images/squareIcon.svg" alt="squareIcon"><span>85&#13217</span>
+                    </div>
+                </div>
+                <div class="propertyCard">
+                    <img id="propertyImage" src="./images/propertyImage.jpg" alt="property-image"><br>
+                    <h2>Elit spa villa</h2> <span class="price"> &#8364 2 222</span><br>
+                    <img src="./images/houseIcon.svg" alt="houseIcon"><span class="flatDescription">Villa</span><span
+                        class="price">&#8364 2 222</span><br>
+                    <img src="./images/locationIcon.svg" alt="locationIcon"><span class="flatDescription">Лимассол,
+                        Агиос Амвросиос</span><br>
+                    <div class="amenetiesDiv">
+                        <img src="./images/bedIcon.svg" alt="bedIcon"><span>2</span>
+                        <img src="./images/bathtubIcon.svg" alt="bathtubIcon"><span>2</span>
+                        <img src="./images/triangleIcon.svg" alt="triangleIcon"><span>800m</span>
+                        <img src="./images/squareIcon.svg" alt="squareIcon"><span>85&#13217</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="property-description">
+                    <h1>Долгосрочная аренда Лимассол</h2>
+                        <div>
+                            <p>196 объектов</p>
+                            <a href="#">Показать все &#8250</a>
+                        </div>
+                </div>
+                <div class="villasExamples">
+                    <div class="propertyCard">
+                        <img id="propertyImage" src="./images/propertyImage.jpg" alt="property-image"><br>
+                        <h2>Elit spa villa</h2> <span class="price"> &#8364 2 222</span><br>
+                        <img src="./images/houseIcon.svg" alt="houseIcon"><span
+                            class="flatDescription">Villa</span><span class="price">&#8364 2 222</span><br>
+                        <img src="./images/locationIcon.svg" alt="locationIcon"><span class="flatDescription">Лимассол,
+                            Агиос Амвросиос</span><br>
+                        <div class="amenetiesDiv">
+                            <img src="./images/bedIcon.svg" alt="bedIcon"><span>2</span>
+                            <img src="./images/bathtubIcon.svg" alt="bathtubIcon"><span>2</span>
+                            <img src="./images/triangleIcon.svg" alt="triangleIcon"><span>800m</span>
+                            <img src="./images/squareIcon.svg" alt="squareIcon"><span>85&#13217</span>
+                        </div>
+                    </div>
+                    <div class="propertyCard">
+                        <img id="propertyImage" src="./images/propertyImage.jpg" alt="property-image"><br>
+                        <h2>Elit spa villa</h2> <span class="price"> &#8364 2 222</span><br>
+                        <img src="./images/houseIcon.svg" alt="houseIcon"><span
+                            class="flatDescription">Villa</span><span class="price">&#8364 2 222</span><br>
+                        <img src="./images/locationIcon.svg" alt="locationIcon"><span class="flatDescription">Лимассол,
+                            Агиос Амвросиос</span><br>
+                        <div class="amenetiesDiv">
+                            <img src="./images/bedIcon.svg" alt="bedIcon"><span>2</span>
+                            <img src="./images/bathtubIcon.svg" alt="bathtubIcon"><span>2</span>
+                            <img src="./images/triangleIcon.svg" alt="triangleIcon"><span>800m</span>
+                            <img src="./images/squareIcon.svg" alt="squareIcon"><span>85&#13217</span>
+                        </div>
+                    </div>
+                    <div class="propertyCard">
+                        <img id="propertyImage" src="./images/propertyImage.jpg" alt="property-image"><br>
+                        <h2>Elit spa villa</h2> <span class="price"> &#8364 2 222</span><br>
+                        <img src="./images/houseIcon.svg" alt="houseIcon"><span
+                            class="flatDescription">Villa</span><span class="price">&#8364 2 222</span><br>
+                        <img src="./images/locationIcon.svg" alt="locationIcon"><span class="flatDescription">Лимассол,
+                            Агиос Амвросиос</span><br>
+                        <div class="amenetiesDiv">
+                            <img src="./images/bedIcon.svg" alt="bedIcon"><span>2</span>
+                            <img src="./images/bathtubIcon.svg" alt="bathtubIcon"><span>2</span>
+                            <img src="./images/triangleIcon.svg" alt="triangleIcon"><span>800m</span>
+                            <img src="./images/squareIcon.svg" alt="squareIcon"><span>85&#13217</span>
+                        </div>
+                    </div>
+                    <div class="propertyCard">
+                        <img id="propertyImage" src="./images/propertyImage.jpg" alt="property-image"><br>
+                        <h2>Elit spa villa</h2> <span class="price"> &#8364 2 222</span><br>
+                        <img src="./images/houseIcon.svg" alt="houseIcon"><span
+                            class="flatDescription">Villa</span><span class="price">&#8364 2 222</span><br>
+                        <img src="./images/locationIcon.svg" alt="locationIcon"><span class="flatDescription">Лимассол,
+                            Агиос Амвросиос</span><br>
+                        <div class="amenetiesDiv">
+                            <img src="./images/bedIcon.svg" alt="bedIcon"><span>2</span>
+                            <img src="./images/bathtubIcon.svg" alt="bathtubIcon"><span>2</span>
+                            <img src="./images/triangleIcon.svg" alt="triangleIcon"><span>800m</span>
+                            <img src="./images/squareIcon.svg" alt="squareIcon"><span>85&#13217</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="property-description">
+                    <h1>Недвижимость на Кипре для получения Вида на жительство</h2>
+                        <div>
+                            <p>196 объектов</p>
+                            <a href="#">Показать все &#8250</a>
+                        </div>
+                </div>
+                <div class="villasExamples">
+                    <div class="propertyCard">
+                        <img id="propertyImage" src="./images/propertyImage.jpg" alt="property-image"><br>
+                        <h2>Elit spa villa</h2> <span class="price"> &#8364 2 222</span><br>
+                        <img src="./images/houseIcon.svg" alt="houseIcon"><span
+                            class="flatDescription">Villa</span><span class="price">&#8364 2 222</span><br>
+                        <img src="./images/locationIcon.svg" alt="locationIcon"><span class="flatDescription">Лимассол,
+                            Агиос Амвросиос</span><br>
+                        <div class="amenetiesDiv">
+                            <img src="./images/bedIcon.svg" alt="bedIcon"><span>2</span>
+                            <img src="./images/bathtubIcon.svg" alt="bathtubIcon"><span>2</span>
+                            <img src="./images/triangleIcon.svg" alt="triangleIcon"><span>800m</span>
+                            <img src="./images/squareIcon.svg" alt="squareIcon"><span>85&#13217</span>
+                        </div>
+                    </div>
+                    <div class="propertyCard">
+                        <img id="propertyImage" src="./images/propertyImage.jpg" alt="property-image"><br>
+                        <h2>Elit spa villa</h2> <span class="price"> &#8364 2 222</span><br>
+                        <img src="./images/houseIcon.svg" alt="houseIcon"><span
+                            class="flatDescription">Villa</span><span class="price">&#8364 2 222</span><br>
+                        <img src="./images/locationIcon.svg" alt="locationIcon"><span class="flatDescription">Лимассол,
+                            Агиос Амвросиос</span><br>
+                        <div class="amenetiesDiv">
+                            <img src="./images/bedIcon.svg" alt="bedIcon"><span>2</span>
+                            <img src="./images/bathtubIcon.svg" alt="bathtubIcon"><span>2</span>
+                            <img src="./images/triangleIcon.svg" alt="triangleIcon"><span>800m</span>
+                            <img src="./images/squareIcon.svg" alt="squareIcon"><span>85&#13217</span>
+                        </div>
+                    </div>
+                    <div class="propertyCard">
+                        <img id="propertyImage" src="./images/propertyImage.jpg" alt="property-image"><br>
+                        <h2>Elit spa villa</h2> <span class="price"> &#8364 2 222</span><br>
+                        <img src="./images/houseIcon.svg" alt="houseIcon"><span
+                            class="flatDescription">Villa</span><span class="price">&#8364 2 222</span><br>
+                        <img src="./images/locationIcon.svg" alt="locationIcon"><span class="flatDescription">Лимассол,
+                            Агиос Амвросиос</span><br>
+                        <div class="amenetiesDiv">
+                            <img src="./images/bedIcon.svg" alt="bedIcon"><span>2</span>
+                            <img src="./images/bathtubIcon.svg" alt="bathtubIcon"><span>2</span>
+                            <img src="./images/triangleIcon.svg" alt="triangleIcon"><span>800m</span>
+                            <img src="./images/squareIcon.svg" alt="squareIcon"><span>85&#13217</span>
+                        </div>
+                    </div>
+                    <div class="propertyCard">
+                        <img id="propertyImage" src="./images/propertyImage.jpg" alt="property-image"><br>
+                        <h2>Elit spa villa</h2> <span class="price"> &#8364 2 222</span><br>
+                        <img src="./images/houseIcon.svg" alt="houseIcon"><span
+                            class="flatDescription">Villa</span><span class="price">&#8364 2 222</span><br>
+                        <img src="./images/locationIcon.svg" alt="locationIcon"><span class="flatDescription">Лимассол,
+                            Агиос Амвросиос</span><br>
+                        <div class="amenetiesDiv">
+                            <img src="./images/bedIcon.svg" alt="bedIcon"><span>2</span>
+                            <img src="./images/bathtubIcon.svg" alt="bathtubIcon"><span>2</span>
+                            <img src="./images/triangleIcon.svg" alt="triangleIcon"><span>800m</span>
+                            <img src="./images/squareIcon.svg" alt="squareIcon"><span>85&#13217</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="property-description">
+                    <h1>Последние обновления</h2>
+                        <div>
+                            <p>196 объектов</p>
+                            <a href="#">Показать все &#8250</a>
+                        </div>
+                </div>
+                <div class="updatesDiv">
+                    <img class="triangleDown" src="./images/triangleDown.svg" alt="triangleDown">
+                    <a class="propertiesBtnBlue" href="#">Продажа недвижимости</a>
+                    <a class="propertiesBtn" href="#">Долгосрочная аренда</a>
+                    <a class="propertiesBtn" href="#">Краткосрочная аренда</a>
+                </div>
+                <div class="villasExamples">
+                    <div class="propertyCard">
+                        <img id="propertyImage" src="./images/propertyImage.jpg" alt="property-image"><br>
+                        <h2>Elit spa villa</h2> <span class="price"> &#8364 2 222</span><br>
+                        <img src="./images/houseIcon.svg" alt="houseIcon"><span
+                            class="flatDescription">Villa</span><span class="price">&#8364 2 222</span><br>
+                        <img src="./images/locationIcon.svg" alt="locationIcon"><span class="flatDescription">Лимассол,
+                            Агиос Амвросиос</span><br>
+                        <div class="amenetiesDiv">
+                            <img src="./images/bedIcon.svg" alt="bedIcon"><span>2</span>
+                            <img src="./images/bathtubIcon.svg" alt="bathtubIcon"><span>2</span>
+                            <img src="./images/triangleIcon.svg" alt="triangleIcon"><span>800m</span>
+                            <img src="./images/squareIcon.svg" alt="squareIcon"><span>85&#13217</span>
+                        </div>
+                    </div>
+                    <div class="propertyCard">
+                        <img id="propertyImage" src="./images/propertyImage.jpg" alt="property-image"><br>
+                        <h2>Elit spa villa</h2> <span class="price"> &#8364 2 222</span><br>
+                        <img src="./images/houseIcon.svg" alt="houseIcon"><span
+                            class="flatDescription">Villa</span><span class="price">&#8364 2 222</span><br>
+                        <img src="./images/locationIcon.svg" alt="locationIcon"><span class="flatDescription">Лимассол,
+                            Агиос Амвросиос</span><br>
+                        <div class="amenetiesDiv">
+                            <img src="./images/bedIcon.svg" alt="bedIcon"><span>2</span>
+                            <img src="./images/bathtubIcon.svg" alt="bathtubIcon"><span>2</span>
+                            <img src="./images/triangleIcon.svg" alt="triangleIcon"><span>800m</span>
+                            <img src="./images/squareIcon.svg" alt="squareIcon"><span>85&#13217</span>
+                        </div>
+                    </div>
+                    <div class="propertyCard">
+                        <img id="propertyImage" src="./images/propertyImage.jpg" alt="property-image"><br>
+                        <h2>Elit spa villa</h2> <span class="price"> &#8364 2 222</span><br>
+                        <img src="./images/houseIcon.svg" alt="houseIcon"><span
+                            class="flatDescription">Villa</span><span class="price">&#8364 2 222</span><br>
+                        <img src="./images/locationIcon.svg" alt="locationIcon"><span class="flatDescription">Лимассол,
+                            Агиос Амвросиос</span><br>
+                        <div class="amenetiesDiv">
+                            <img src="./images/bedIcon.svg" alt="bedIcon"><span>2</span>
+                            <img src="./images/bathtubIcon.svg" alt="bathtubIcon"><span>2</span>
+                            <img src="./images/triangleIcon.svg" alt="triangleIcon"><span>800m</span>
+                            <img src="./images/squareIcon.svg" alt="squareIcon"><span>85&#13217</span>
+                        </div>
+                    </div>
+                    <div class="propertyCard">
+                        <img id="propertyImage" src="./images/propertyImage.jpg" alt="property-image"><br>
+                        <h2>Elit spa villa</h2> <span class="price"> &#8364 2 222</span><br>
+                        <img src="./images/houseIcon.svg" alt="houseIcon"><span
+                            class="flatDescription">Villa</span><span class="price">&#8364 2 222</span><br>
+                        <img src="./images/locationIcon.svg" alt="locationIcon"><span class="flatDescription">Лимассол,
+                            Агиос Амвросиос</span><br>
+                        <div class="amenetiesDiv">
+                            <img src="./images/bedIcon.svg" alt="bedIcon"><span>2</span>
+                            <img src="./images/bathtubIcon.svg" alt="bathtubIcon"><span>2</span>
+                            <img src="./images/triangleIcon.svg" alt="triangleIcon"><span>800m</span>
+                            <img src="./images/squareIcon.svg" alt="squareIcon"><span>85&#13217</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div>
+                <img src="./images/profTeam.svg" alt="profTeam"><br>
+                <p>Команда профессионалов в сфере нежвижимости на Кипре</p>
+            </div>
+            <img src="./images/lineDots.svg" alt="lineDots">
+            <div>
+                <img src="./images/yearsExperience.svg" alt="yearsExperience"><br>
+                <p>Многолетний опыт позволяет
+                    нам быть лидерами в области</p>
+            </div>
+            <img src="./images/lineDots.svg" alt="lineDots">
+            <div>
+                <img src="./images/individualTouch.svg" alt="individualTouch"><br>
+                <p>Индивидуальный подход к каждому клиенту</p>
+            </div>
+            <img src="./images/lineDots.svg" alt="lineDots">
+            <div>
+                <img src="./images/safety.svg" alt="safety"><br>
+                <p>Безопасность, конфиденциальность</p>
+            </div>
+            <img src="./images/lineDots.svg" alt="lineDots">
+            <div>
+                <img src="./images/catalogue.svg" alt="catalogue"><br>
+                <p>Обширный каталог объектов</p>
+            </div>
+        </section>
+        <section id="secretsOfOurWork">
+            <h3>
+                Секрет нашей успешной работы
+            </h3>
+            <p class="secretsSubtitle">
+                Любовь к своему делу и честность в работе
+            </p>
+            <p class="secretsDescription">
+                <span class="grandSpan">Grand Property</span> специализирующееся на продаже вилл, квартир,
+                апартаментов, мезонетов и других объектов недвижимости. <br> В своей работе агентство
+                руководствуется принципами европейского менеджмента и выгодно отличается прямыми
+                договорными отношениями с застройщиками. Высокое доверие клиентов и лидирующие позиции
+                в предоставлении высококачественного сервиса по продаже и
+                подбору объектов недвижимости на Кипре — фирменные черты Grand Property.
+            </p>
+            <div class="secretsImages">
+                <img src="./images/propertyEx1.jpg" alt="propertiesImage">
+                <img src="./images/propertyEx2.jpg" alt="propertiesImage">
+            </div>
+            <div class="numericalDetails">
+                <div>
+                    <p class="num">2078</p><br>
+                    <p>Resale properties for Sale in Cyprus</p>
+                </div>
+                <div>
+                    <p class="num">1560</p><br>
+                    <p>New homes for sale in Cyprus</p>
+                </div>
+                <div>
+                    <p class="num">6247</p><br>
+                    <p>Properties for rent in Cyprus</p>
+                </div>
+                <div>
+                    <p class="num">9885</p><br>
+                    <p>Total properties for sale in Cyprus</p>
+                </div>
+            </div>
+        </section>
+        <section id="subscribe">
+            <div>
+                <h3>Подпишитесь на наши новости</h3>
+                <p>Последние новости о недвижимости, статьи и ресурсы еженедельно отправляются в ваш почтовый ящик</p>
+            </div>
+            <div class="emails">
+                <p>Введите свой постовый адрес</p>
+                <input type="email" placeholder="your.email@com">
+                <button>подписаться</button>
+                <p>Мы заботимся о защите Ваших данных</p>
+                <p>Политикa Конфиденциальности</p>
+            </div>
+        </section>
+        <section id="buildingCompany">
+            <div class="buildingPart1">
+                <div><h3>Компания застройщик на Кипре</h3><p>GRAND PROPERTY - lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna.
+                    Er tyur kgl fddktjut gjoeok fkjytuor yuio pottorisan victort ek  porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, 
+                    porttitor rhoncus dolor purus non enim praesent elementum.</p>
+                </div>
+                <div><img src="./images/Rectangle 1974.jpg" alt="propertyImage"></div>
+            </div>
+            <div class="buildingPart2">
+                <div><img src="./images/Rectangle 1982.jpg" alt="propertyImage"></div>
+                <div><h3>ВНЖ на Кипре</h3><p>Вид на жительство Республики Кипр – возможность иностранцев получить право жить и работать в стране с прекрасным климатом, безвизовыми путешествиями во многие страны мира, а также множеством налоговых льгот.
+                    Кипр – одно из немногих государств ЕС, наиболее открытых для граждан третьих стран. В соответствии с Положением 5 Закона Кипра об Иностранцах и Иммиграции 1972 года, иностранцы могут получить вид на жительство на Кипре, если они попадают под одну из категорий, описанных на нашем сайте.</p>
+                <button>Подробнее о ВНЖ</button>
+                </div>
+            </div>
+        </section>
+        <section id="faq">
+
+        </section>
+        <section id="contactDetails">
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

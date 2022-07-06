@@ -1,0 +1,493 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+header {
+  text-transform: uppercase;
+}
+header a {
+  text-decoration: none;
+  color: #3B3B3B;
+}
+header a:visited {
+  color: #3B3B3B;
+}
+header .navPart1 {
+  margin-top: -20px;
+  margin-bottom: 40px;
+  margin-right: -50px;
+}
+header #postAddBtn {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #3BA8DC;
+  border: 1px solid #4BADDB;
+  padding: 13px 40px;
+  border-radius: 40px;
+  margin-right: 15px;
+}
+header #callMeBtnMain {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 18px 40px;
+  border-radius: 40px;
+  color: #FFFFFF;
+  background-image: linear-gradient(to left, #3BA8DC, #96DBFC);
+}
+header .navContact img {
+  width: 20px;
+  margin-left: 20px;
+}
+header .navContact span {
+  font-size: 16px;
+  padding-top: -5px;
+}
+header .navContact .phoneNum {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+header nav {
+  margin: 27px 29px;
+  background-color: #FFFFFF;
+}
+header .logoImage {
+  width: 100px;
+}
+header .part-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+  margin: 0 30px;
+}
+header .part-2 {
+  margin-bottom: 28px;
+  background-color: #FEFEFE;
+}
+header .part-2 ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 21px auto;
+}
+header .part-2 ul li {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0 30px;
+}
+header li {
+  list-style: none;
+}
+
+.headerHeroInfo div {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F8F8F8;
+  padding: 15px 0;
+}
+.headerHeroInfo div .inputSearch {
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  padding: 5px;
+  font-size: 11px;
+}
+.headerHeroInfo div .searchIcon {
+  position: relative;
+  right: 20px;
+  bottom: -2px;
+}
+.headerHeroInfo div ul {
+  display: flex;
+}
+.headerHeroInfo div li {
+  margin: 0 12px;
+}
+.headerHeroInfo div img {
+  width: 11px;
+}
+.headerHeroInfo div a {
+  text-transform: capitalize;
+  font-size: 12px;
+}
+
+.headerBgMain .main-bg-image {
+  width: 100%;
+  position: absolute;
+}
+.headerBgMain .textOnPhoto {
+  position: relative;
+  z-index: 2;
+  top: 50px;
+  padding-top: 70px;
+  margin-left: 20px;
+}
+.headerBgMain h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  color: #FFFFFF;
+}
+.headerBgMain .subtitle {
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+.headerBgMain .callMeBtn {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #FFFFFF;
+  padding: 20px 40px;
+  border: 1px solid white;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+#search {
+  background-color: #FFFFFF;
+  margin-top: 170px;
+}
+#search .searchCategories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#search .searchCategories img {
+  width: 15px;
+  height: 12px;
+}
+#search .propertySale {
+  background-color: #F8F8F8;
+  width: 240px;
+  padding: 15px 40px;
+  font-size: 13px;
+  border-radius: 20px 20px 0 0;
+  margin-right: 10px;
+}
+#search .longTermRent,
+#search .shortTermRent {
+  background-color: #EFEFEF;
+  width: 240px;
+  padding: 15px 40px;
+  font-size: 13px;
+  border-radius: 20px 20px 0 0;
+  margin-right: 10px;
+}
+#search .searchInputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F8F8F8;
+  padding-top: 50px;
+}
+#search .searchInputs .searchInputs1 {
+  display: flex;
+}
+#search .searchInputs .searchInputs1 select {
+  width: 250px;
+  margin-right: 15px;
+  border: none;
+  padding: 5px;
+}
+#search .searchInputs .pricesMaxMin {
+  display: flex;
+  width: 250px;
+}
+#search .searchInputs .pricesMaxMin #minPrice,
+#search .searchInputs .pricesMaxMin #maxPrice {
+  width: 100px;
+}
+#search .buttonsSearch {
+  margin-top: 40px;
+  padding-bottom: 50px;
+}
+#search .buttonsSearch .findProperties {
+  background-color: #4BADDB;
+  width: 240px;
+  padding: 15px 50px;
+  font-size: 13px;
+  border-radius: 40px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+#search .buttonsSearch .advancedSearch {
+  background-color: #FFFFFF;
+  width: 240px;
+  padding: 15px 50px;
+  font-size: 13px;
+  border-radius: 40px;
+  margin-right: 10px;
+  text-decoration: none;
+  border: 1px solid #005889;
+  color: #3B3B3B;
+}
+
+main {
+  background-color: #FCFCFC;
+}
+
+#properties {
+  margin-top: 50px;
+  padding-top: 40px;
+  margin: 0 60px;
+}
+#properties .villasExamples {
+  display: flex;
+}
+#properties .property-description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#properties .property-description div {
+  display: flex;
+}
+#properties .property-description div p {
+  margin-right: 100px;
+}
+#properties .property-description h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+#properties .propertyCard {
+  width: 250px;
+  margin-bottom: 50px;
+  margin-right: 10px;
+  border: 1px solid #F8F8F8;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+#properties .propertyCard img {
+  width: 11px;
+  height: 11px;
+}
+#properties .propertyCard #propertyImage {
+  width: 230px;
+  height: 180px;
+}
+#properties .propertyCard h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+}
+#properties .propertyCard .price {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+}
+#properties .propertyCard .flatDescription {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+#properties .propertyCard span {
+  margin-left: 5px;
+}
+#properties .propertyCard .amenetiesDiv {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #F8F8F8;
+}
+#properties .propertyCard .amenetiesDiv span {
+  margin-right: 15px;
+}
+#properties .updatesDiv {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+#properties .propertiesBtnBlue {
+  color: #FFFFFF;
+  background-color: #4BADDB;
+  padding: 8px 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+#properties .propertiesBtn {
+  padding: 10px;
+  padding: 8px 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  margin-right: 5px;
+  color: #898989;
+}
+#properties .triangleDown {
+  width: 23px;
+  padding-top: -20px;
+}
+#properties a {
+  text-decoration: none;
+}
+
+#about {
+  background-image: url("/images/aboutBG.jpg");
+  background-repeat: no-repeat;
+  padding: 50px 60px;
+  margin-bottom: 50px;
+  display: flex;
+  text-align: center;
+}
+#about p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+#about img {
+  width: 100px;
+}
+
+#secretsOfOurWork {
+  text-align: center;
+}
+#secretsOfOurWork h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #4C5159;
+}
+#secretsOfOurWork .secretsSubtitle {
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 38px;
+  color: #005889;
+  margin-bottom: 40px;
+}
+#secretsOfOurWork .secretsDescription {
+  text-align: left;
+  margin: 5px 70px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #3B3B3B;
+}
+#secretsOfOurWork .grandSpan {
+  font-weight: bold;
+}
+#secretsOfOurWork .secretsImages {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+#secretsOfOurWork .secretsImages img {
+  width: 500px;
+}
+#secretsOfOurWork .numericalDetails {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+#secretsOfOurWork .numericalDetails .num {
+  color: #005889;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 87px;
+  letter-spacing: 0.115em;
+  width: 150px;
+}
+#secretsOfOurWork .numericalDetails p {
+  font-family: "Open Sans";
+  font-size: 15px;
+  line-height: 30px;
+}
+
+#subscribe {
+  background-color: #555E63;
+  display: flex;
+  color: #FFFFFF;
+}
+#subscribe h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+#subscribe div {
+  padding: 60px;
+  width: 50%;
+}
+#subscribe div p {
+  letter-spacing: 1px;
+}
+#subscribe .emails input {
+  width: 300px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+#subscribe .emails button {
+  background: #4C5159;
+  border: 1px solid #FFFFFF;
+  border-radius: 56px;
+  padding: 12px 25px;
+  color: #FFFFFF;
+}
+
+#buildingCompany .buildingPart1 {
+  background-color: #FFFFFF;
+  display: flex;
+  padding: 60px 100px;
+}
+#buildingCompany .buildingPart1 h3 {
+  font-size: 32px;
+}
+#buildingCompany .buildingPart1 p {
+  font-size: 20px;
+}
+#buildingCompany .buildingPart2 {
+  background-color: #FCFCFC;
+  display: flex;
+  padding: 60px 100px;
+}
+#buildingCompany .buildingPart2 img {
+  width: 100%;
+}
+#buildingCompany .buildingPart2 h3 {
+  font-size: 32px;
+}
+#buildingCompany .buildingPart2 p {
+  font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  max-width: 1920px;
+}/*# sourceMappingURL=styles.css.map */
